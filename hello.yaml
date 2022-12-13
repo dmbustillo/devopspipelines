@@ -15,7 +15,7 @@ stages:
           echo "hello $(name)"
       - task: AzureCLI@2
         inputs:
-          azureSubscription: 3b6327ad-9a1f-4d42-81f8-548756cdce21
+          azureSubscription: devtest
           scriptType: bash
           inlineScript: |
             az account list
