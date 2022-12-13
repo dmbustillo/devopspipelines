@@ -11,5 +11,5 @@ stages:
   - job: job1
     steps:
       bash: |
-        echo "hello $(name)
+        echo "hello $(name)"
 
