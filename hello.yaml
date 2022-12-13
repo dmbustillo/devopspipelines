@@ -10,6 +10,6 @@ stages:
   jobs:
   - job: job1
     steps:
-      bash: |
-        echo "hello $(name)"
+      - bash: |
+          echo "hello $(name)"
 
