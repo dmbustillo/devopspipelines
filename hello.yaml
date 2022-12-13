@@ -17,6 +17,7 @@ stages:
         inputs:
           azureSubscription: devtest
           scriptType: bash
+          scriptLocation: 'inlineScript'
           inlineScript: |
             az account list
 
