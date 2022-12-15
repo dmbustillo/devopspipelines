@@ -20,4 +20,3 @@ stages:
           scriptLocation: 'inlineScript'
           inlineScript: |
             az account list
-
