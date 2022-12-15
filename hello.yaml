@@ -13,11 +13,10 @@ stages:
     steps:
       - bash: |
           echo "hello $(name)"
-      - task: AzureCLI@2
-        inputs:
-          azureSubscription: devtest
-          scriptType: bash
-          scriptLocation: 'inlineScript'
-          inlineScript: |
-            az account list
-
+      # - task: AzureCLI@2
+      #   inputs:
+      #     azureSubscription: devtest
+      #     scriptType: bash
+      #     scriptLocation: 'inlineScript'
+      #     inlineScript: |
+      #       az account list
